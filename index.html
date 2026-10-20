@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reformas Empordà | Interior &amp; Exterior en Castelló d'Empúries</title>
+<meta name="description" content="Reformas Empordà: reformas integrales, albañilería, baños y cocinas, pintura, fachadas y reparaciones generales en el Alt Empordà y toda Catalunya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="#" class="brand"><img src="/img/logo.png" alt="" width="40" height="36">Reformas <b>Empordà</b></a>
+  <div class="nav-links">
+    <a href="#servicios"><span class="t es on">Servicios</span><span class="t ca">Serveis</span><span class="t en">Services</span><span class="t fr">Services</span></a>
+    <a href="#ventajas"><span class="t es on">¿Por qué nosotros?</span><span class="t ca">Per què nosaltres?</span><span class="t en">Why us?</span><span class="t fr">Pourquoi nous ?</span></a>
+    <a href="#zonas"><span class="t es on">Zonas</span><span class="t ca">Zones</span><span class="t en">Areas</span><span class="t fr">Zones</span></a>
+    <a href="#contacto"><span class="t es on">Contacto</span><span class="t ca">Contacte</span><span class="t en">Contact</span><span class="t fr">Contact</span></a>
+  </div>
+  <div class="nav-right">
+    <div class="lang-bar">
+      <button class="lang-btn active" onclick="setLang('es',this)">ES</button>
+      <button class="lang-btn" onclick="setLang('ca',this)">CA</button>
+      <button class="lang-btn" onclick="setLang('en',this)">EN</button>
+      <button class="lang-btn" onclick="setLang('fr',this)">FR</button>
+    </div>
+    <a href="tel:+34688277270" class="nav-cta">+34 688 277 270</a>
+    <button class="burger" onclick="toggleMenu()" aria-label="Menu"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 5h16M2 10h16M2 15h16"/></svg></button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#servicios" onclick="toggleMenu()"><span class="t es on">Servicios</span><span class="t ca">Serveis</span><span class="t en">Services</span><span class="t fr">Services</span></a>
+  <a href="#ventajas" onclick="toggleMenu()"><span class="t es on">¿Por qué nosotros?</span><span class="t ca">Per què nosaltres?</span><span class="t en">Why us?</span><span class="t fr">Pourquoi nous ?</span></a>
+  <a href="#zonas" onclick="toggleMenu()"><span class="t es on">Zonas</span><span class="t ca">Zones</span><span class="t en">Areas</span><span class="t fr">Zones</span></a>
+  <a href="#contacto" onclick="toggleMenu()"><span class="t es on">Contacto</span><span class="t ca">Contacte</span><span class="t en">Contact</span><span class="t fr">Contact</span></a>
+  <a href="tel:+34688277270">+34 688 277 270</a>
+  <a href="mailto:Reformas031@gmail.com">Reformas031@gmail.com</a>
+</div>
+
+<header class="hero">
+  <div>
+    <p class="hero-tag"><span class="t es on">Alt Empordà y toda Catalunya</span><span class="t ca">Alt Empordà i tota Catalunya</span><span class="t en">Alt Empordà and all of Catalonia</span><span class="t fr">Alt Empordà et toute la Catalogne</span></p>
+    <h1><span class="t es on">Reformas que se notan</span><span class="t ca">Reformes que es noten</span><span class="t en">Renovations that show</span><span class="t fr">Des rénovations qui se voient</span></h1>
+    <p class="hero-sub"><span class="t es on">Reformas integrales, albañilería, baños y cocinas, pintura y fachadas. Obra bien hecha, precio claro y trato cercano.</span><span class="t ca">Reformes integrals, paleteria, banys i cuines, pintura i façanes. Obra ben feta, preu clar i tracte proper.</span><span class="t en">Full renovations, masonry, bathrooms and kitchens, painting and facades. Quality work, clear pricing and personal service.</span><span class="t fr">Rénovations complètes, maçonnerie, salles de bain et cuisines, peinture et façades. Travail soigné, prix clairs et service personnalisé.</span></p>
+    <div class="hero-ctas">
+      <a href="tel:+34688277270" class="btn btn-main"><svg class="fill" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg><span class="t es on">Llámanos ahora</span><span class="t ca">Truca'ns ara</span><span class="t en">Call us now</span><span class="t fr">Appelez-nous</span></a>
+      <a href="https://wa.me/34688277270" target="_blank" rel="noopener" class="btn btn-line"><svg class="fill" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>WhatsApp</a>
+    </div>
+  </div>
+  <div class="hero-img"><img src="/img/logo.png" alt="Reformas Empordà - Interior &amp; Exterior" width="640" height="430"></div>
+</header>
+
+<div class="strip">
+  <div><svg class="ic" viewBox="0 0 24 24"><path d="M3 12l9-9h8v8l-9 9z"/><circle cx="16" cy="8" r="1.5"/></svg><span><span class="t es on">Presupuesto gratis</span><span class="t ca">Pressupost gratuït</span><span class="t en">Free quote</span><span class="t fr">Devis gratuit</span></span></div>
+  <div><svg class="ic" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><span><span class="t es on">Trabajo garantizado</span><span class="t ca">Treball garantit</span><span class="t en">Guaranteed work</span><span class="t fr">Travail garanti</span></span></div>
+  <div><svg class="ic" viewBox="0 0 24 24"><path d="M12 22s7-7 7-12a7 7 0 10-14 0c0 5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><span><span class="t es on">Alt Empordà y Catalunya</span><span class="t ca">Alt Empordà i Catalunya</span><span class="t en">Alt Empordà and Catalonia</span><span class="t fr">Alt Empordà et Catalogne</span></span></div>
+  <div><svg class="ic" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2 20c0-3.5 3-5.5 7-5.5s7 2 7 5.5"/><path d="M16 4.5a3.5 3.5 0 010 7M18 15c2.5.7 4 2.5 4 5"/></svg><span><span class="t es on">Trato personal</span><span class="t ca">Tracte personal</span><span class="t en">Personal attention</span><span class="t fr">Service personnalisé</span></span></div>
+</div>
+
+<section id="servicios">
+  <h2><span class="t es on">¿Qué hacemos?</span><span class="t ca">Què fem?</span><span class="t en">What we do</span><span class="t fr">Ce que nous faisons</span></h2>
+  <div class="svc-grid">
+    <div class="card c1"><svg class="ic" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg><div><h3><span class="t es on">Reformas integrales</span><span class="t ca">Reformes integrals</span><span class="t en">Full renovations</span><span class="t fr">Rénovations complètes</span></h3><p><span class="t es on">Rehabilitamos tu vivienda o local de principio a fin, con un solo equipo.</span><span class="t ca">Rehabilitem el teu habitatge o local de dalt a baix, amb un sol equip.</span><span class="t en">We renovate your home or premises from start to finish, with a single team.</span><span class="t fr">Nous rénovons votre logement ou local de A à Z, avec une seule équipe.</span></p></div></div>
+    <div class="card c2"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 9.3h18M3 14.7h18M9 4v5.3M15 9.3v5.4M9 14.7V20"/></svg><div><h3><span class="t es on">Albañilería</span><span class="t ca">Paleteria</span><span class="t en">Masonry</span><span class="t fr">Maçonnerie</span></h3><p><span class="t es on">Tabiques, muros, soleras, aperturas y todo tipo de obra.</span><span class="t ca">Envans, murs, soleres, obertures i tota mena d'obra.</span><span class="t en">Partitions, walls, slabs, openings and all kinds of building work.</span><span class="t fr">Cloisons, murs, dalles, ouvertures et tous types de travaux.</span></p></div></div>
+    <div class="card c3"><svg class="ic" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M12 3v18M3 12h18"/><path d="M7.5 7.5h.01M16.5 16.5h.01"/></svg><div><h3><span class="t es on">Baños y cocinas</span><span class="t ca">Banys i cuines</span><span class="t en">Bathrooms and kitchens</span><span class="t fr">Salles de bain et cuisines</span></h3><p><span class="t es on">Alicatados, suelos, fontanería y reformas completas de baños y cocinas.</span><span class="t ca">Enrajolats, terres, lampisteria i reformes completes de banys i cuines.</span><span class="t en">Tiling, flooring, plumbing and complete bathroom and kitchen renovations.</span><span class="t fr">Carrelage, sols, plomberie et rénovations complètes de salles de bain et cuisines.</span></p></div></div>
+    <div class="card c4"><svg class="ic" viewBox="0 0 24 24"><rect x="4" y="3" width="14" height="6" rx="1"/><path d="M18 6h2v5h-8v3"/><rect x="10.5" y="14" width="3" height="7" rx="1"/></svg><div><h3><span class="t es on">Pintura</span><span class="t ca">Pintura</span><span class="t en">Painting</span><span class="t fr">Peinture</span></h3><p><span class="t es on">Pintura interior y exterior, con preparación de paredes y acabado limpio.</span><span class="t ca">Pintura interior i exterior, amb preparació de parets i acabat net.</span><span class="t en">Interior and exterior painting, with proper wall prep and a clean finish.</span><span class="t fr">Peinture intérieure et extérieure, avec préparation des murs et finition soignée.</span></p></div></div>
+    <div class="card c5"><svg class="ic" viewBox="0 0 24 24"><path d="M5 21V4h9v17M14 9h5v12M2 21h20"/><path d="M8 8h3M8 12h3M8 16h3M16.5 13h.01M16.5 17h.01"/></svg><div><h3><span class="t es on">Fachadas</span><span class="t ca">Façanes</span><span class="t en">Facades</span><span class="t fr">Façades</span></h3><p><span class="t es on">Reparación, revoco, pintura y rehabilitación para que tu fachada dure.</span><span class="t ca">Reparació, arrebossat, pintura i rehabilitació perquè la teva façana duri.</span><span class="t en">Repair, rendering, painting and restoration so your facade lasts.</span><span class="t fr">Réparation, enduit, peinture et rénovation pour une façade durable.</span></p></div></div>
+    <div class="card c6"><svg class="ic" viewBox="0 0 24 24"><path d="M14.5 6.5a4 4 0 005.2 5.2l-1.2 1.2-5.2-5.2z"/><path d="M13.3 10.7L4.6 19.4a1.6 1.6 0 002.3 2.3l8.7-8.7"/><path d="M15 3.6A5 5 0 0021 9"/></svg><div><h3><span class="t es on">Reparaciones generales</span><span class="t ca">Reparacions generals</span><span class="t en">General repairs</span><span class="t fr">Réparations générales</span></h3><p><span class="t es on">Humedades, grietas, goteras y pequeños arreglos del hogar.</span><span class="t ca">Humitats, esquerdes, goteres i petits arranjaments de la llar.</span><span class="t en">Damp, cracks, leaks and small home fixes.</span><span class="t fr">Humidité, fissures, fuites et petites réparations.</span></p></div></div>
+  </div>
+</section>
+
+<section class="alt" id="ventajas">
+  <h2><span class="t es on">Por qué elegirnos</span><span class="t ca">Per què triar-nos</span><span class="t en">Why choose us</span><span class="t fr">Pourquoi nous choisir</span></h2>
+  <div class="why-grid">
+    <div class="why-list">
+      <div class="why-item w1"><svg class="ic" viewBox="0 0 24 24"><path d="M3 12l9-9h8v8l-9 9z"/><circle cx="16" cy="8" r="1.5"/></svg><div><h3><span class="t es on">Precio claro</span><span class="t ca">Preu clar</span><span class="t en">Clear pricing</span><span class="t fr">Prix clairs</span></h3><p><span class="t es on">Presupuesto gratuito y sin compromiso.</span><span class="t ca">Pressupost gratuït i sense compromís.</span><span class="t en">Free quote, no obligation.</span><span class="t fr">Devis gratuit et sans engagement.</span></p></div></div>
+      <div class="why-item w2"><svg class="ic" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2 20c0-3.5 3-5.5 7-5.5s7 2 7 5.5"/><path d="M16 4.5a3.5 3.5 0 010 7M18 15c2.5.7 4 2.5 4 5"/></svg><div><h3><span class="t es on">Trato directo</span><span class="t ca">Tracte directe</span><span class="t en">Direct contact</span><span class="t fr">Contact direct</span></h3><p><span class="t es on">Hablas con quien hará tu obra.</span><span class="t ca">Parles amb qui farà la teva obra.</span><span class="t en">You talk to the people doing your job.</span><span class="t fr">Vous parlez à ceux qui feront vos travaux.</span></p></div></div>
+      <div class="why-item w3"><svg class="ic" viewBox="0 0 24 24"><path d="M12 22s7-7 7-12a7 7 0 10-14 0c0 5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg><div><h3><span class="t es on">Conocemos la zona</span><span class="t ca">Coneixem la zona</span><span class="t en">We know the area</span><span class="t fr">Nous connaissons la région</span></h3><p><span class="t es on">Base en el Alt Empordà, obras en toda Catalunya.</span><span class="t ca">Base a l'Alt Empordà, obres a tota Catalunya.</span><span class="t en">Based in Alt Empordà, working across Catalonia.</span><span class="t fr">Basés en Alt Empordà, chantiers dans toute la Catalogne.</span></p></div></div>
+      <div class="why-item w4"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><h3><span class="t es on">Plazos cumplidos</span><span class="t ca">Terminis complerts</span><span class="t en">On-time delivery</span><span class="t fr">Délais respectés</span></h3><p><span class="t es on">Cumplimos fechas y dejamos la obra limpia.</span><span class="t ca">Complim dates i deixem l'obra neta.</span><span class="t en">We keep to schedule and leave the site clean.</span><span class="t fr">Nous respectons les délais et laissons le chantier propre.</span></p></div></div>
+    </div>
+    <div class="why-box">
+      <div class="big"><span class="t es on">Precio justo</span><span class="t ca">Preu just</span><span class="t en">Fair price</span><span class="t fr">Prix juste</span></div>
+      <p><span class="t es on">Presupuesto gratuito sin compromiso. Llámanos o escríbenos y te lo preparamos.</span><span class="t ca">Pressupost gratuït sense compromís. Truca'ns o escriu-nos i te'l preparem.</span><span class="t en">Free quote, no obligation. Call or email us and we'll prepare it for you.</span><span class="t fr">Devis gratuit et sans engagement. Appelez-nous ou écrivez-nous, nous le préparons.</span></p>
+      <a href="tel:+34688277270" class="btn btn-main"><svg class="fill" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg>+34 688 277 270</a>
+    </div>
+  </div>
+</section>
+
+<section id="zonas">
+  <h2><span class="t es on">Alt Empordà y Catalunya</span><span class="t ca">Alt Empordà i Catalunya</span><span class="t en">Alt Empordà and Catalonia</span><span class="t fr">Alt Empordà et Catalogne</span></h2>
+  <h3 class="zone-title">Alt Empordà</h3>
+  <div class="tags"><span class="tag">Figueres</span><span class="tag">Roses</span><span class="tag">Empuriabrava</span><span class="tag">Cadaqués</span><span class="tag">L'Escala</span><span class="tag">Castelló d'Empúries</span><span class="tag">Peralada</span><span class="tag">Llançà</span><span class="tag">Port de la Selva</span><span class="tag">La Jonquera</span><span class="tag">Vilamalla</span><span class="tag">Pau</span><span class="tag">Garriguella</span><span class="tag">Sant Pere Pescador</span><span class="tag">Torroella de Fluvià</span><span class="tag">Vilajuïga</span></div>
+  <h3 class="zone-title"><span class="t es on">Catalunya</span><span class="t ca">Catalunya</span><span class="t en">Catalonia</span><span class="t fr">Catalogne</span></h3>
+  <div class="tags"><span class="tag">Girona</span><span class="tag">Barcelona</span><span class="tag">Tarragona</span><span class="tag">Lleida</span><span class="tag">Badalona</span><span class="tag">Sabadell</span><span class="tag">Terrassa</span><span class="tag">Mataró</span><span class="tag"><span class="t es on">y toda la comunidad</span><span class="t ca">i tota la comunitat</span><span class="t en">and all of Catalonia</span><span class="t fr">et toute la Catalogne</span></span></div>
+</section>
+
+<section class="contact" id="contacto">
+  <div>
+    <h2><span class="t es on">Pide tu presupuesto</span><span class="t ca">Demana el teu pressupost</span><span class="t en">Ask for a quote</span><span class="t fr">Demandez votre devis</span></h2>
+    <p class="lead"><span class="t es on">Cuéntanos qué quieres reformar y dónde. Sin sorpresas ni letra pequeña.</span><span class="t ca">Explica'ns què vols reformar i on. Sense sorpreses ni lletra petita.</span><span class="t en">Tell us what you want to renovate and where. No surprises, no fine print.</span><span class="t fr">Dites-nous ce que vous souhaitez rénover et où. Sans surprises ni petits caractères.</span></p>
+    <p class="hours"><b><span class="t es on">Horario</span><span class="t ca">Horari</span><span class="t en">Opening hours</span><span class="t fr">Horaires</span></b><br><span class="t es on">Lunes a domingo, de 8:00 a 20:00</span><span class="t ca">Dilluns a diumenge, de 8:00 a 20:00</span><span class="t en">Monday to Sunday, 8:00 to 20:00</span><span class="t fr">Du lundi au dimanche, de 8 h à 20 h</span></p>
+  </div>
+  <div class="contact-card">
+    <a class="contact-item" href="tel:+34688277270"><svg class="fill" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1z"/></svg><span><small><span class="t es on">Teléfono</span><span class="t ca">Telèfon</span><span class="t en">Phone</span><span class="t fr">Téléphone</span></small>+34 688 277 270</span></a>
+    <a class="contact-item" href="https://wa.me/34688277270" target="_blank" rel="noopener"><svg class="fill" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span><small>WhatsApp</small>688 277 270</span></a>
+    <a class="contact-item" href="mailto:Reformas031@gmail.com"><svg class="fill" viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1zm9 7.2L4.5 7v.2L12 12.4 19.5 7.2V7z"/></svg><span><small><span class="t es on">Correo</span><span class="t ca">Correu</span><span class="t en">Email</span><span class="t fr">E-mail</span></small>Reformas031@gmail.com</span></a>
+    <a class="contact-item contact-addr" href="https://www.google.com/maps/search/?api=1&amp;query=Sant+Pere+M%C3%A1rtir+6+Castell%C3%B3+d%27Emp%C3%BAries" target="_blank" rel="noopener"><svg class="fill" viewBox="0 0 24 24"><path d="M12 22s7-7 7-12a7 7 0 10-14 0c0 5 7 12 7 12zm0-9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg><span><small><span class="t es on">Dirección</span><span class="t ca">Adreça</span><span class="t en">Address</span><span class="t fr">Adresse</span></small>Sant Pere Mártir Nº 6, Castelló d'Empúries (Girona)</span></a>
+  </div>
+</section>
+
+<footer>
+  <b>Reformas Empordà</b>
+  <span><span class="t es on">© 2026 Todos los derechos reservados. Girona.</span><span class="t ca">© 2026 Tots els drets reservats. Girona.</span><span class="t en">© 2026 All rights reserved. Girona.</span><span class="t fr">© 2026 Tous droits réservés. Girona.</span></span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
